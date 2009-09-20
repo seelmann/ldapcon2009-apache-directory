@@ -1,0 +1,45 @@
+dn: dc=example,dc=com
+objectClass: domain
+objectClass: top
+dc: example
+
+dn: ou=Cars,dc=example,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Cars
+
+dn: ou=Users,dc=example,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+
+dn: cn=Adan Abrams,ou=Users,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Adan Abrams
+givenName: Adan
+sn: Abrams
+uid: aabrams
+userPassword: secret
+telephoneNumber: 902-451-7619
+telephoneNumber: 254-323-1920
+employeeNumber: 7
+description: 19741108113600Z
+
+dn: cn=Chuck Brunato,ou=Users,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: Chuck Brunato
+givenName: Chuck
+sn: Brunato
+uid: cbrunato
+userPassword: secret
+telephoneNumber: 907-547-9114
+telephoneNumber: 169-637-3314
+employeeNumber: 3
+description: 19650324034500Z
+

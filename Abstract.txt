@@ -1,0 +1,15 @@
+The Apache Directory Project: Toolchain for Developers
+
+The Apache Directory project provides a rich toolchain for application developers: Apache Directoy Studio and Apache Directory Server (ApacheDS). This talk shows how this toolchain could be used in your development project:
+- Use the LDAP Browser to explore data and schema, import and reset test data, test filters and queries, check modifications. 
+- Tweak your test data using the LDIF Editor.
+- Design and rollout schema elements using the Schema Editor.
+- Setup ApacheDS as LDAP server for your development environment.
+- Use the replication consumer facility of ApacheDS to keep your development server in sync with the central LDAP server.
+- Leverage the JUnit based testing framework of ApacheDS to test your persistence code.
+
+--
+
+Stefan Seelmann is an independent software developer and consultant, working on LDAP and identity management projects. He is committer and PMC member of the Apache Directory project, focusing on development of Apache Directory Studio. He is also lead developer of the DataNucleus LDAP store subproject.
+
+
